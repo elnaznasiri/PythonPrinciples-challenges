@@ -1,3 +1,4 @@
+# solution 1
 def online_count(arg):
     count = 0
     for i in arg:
@@ -6,6 +7,13 @@ def online_count(arg):
     return count
 
 
+# solution 2
+def online_count(dic):
+    count= 0
+    for value in dic.values():
+        if value == "online":
+            count +=1
+    return count
 
 statuses = {
     "Alice": "online",
