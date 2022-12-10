@@ -4,7 +4,7 @@ def largest_difference(list1):
         maxNumber=max(list1)
         minNumber=min(list1)
     return maxNumber-minNumber
-    
+
 print(largest_difference([1, 2, 3]))
 
 
@@ -16,3 +16,14 @@ def largest_difference(list1):
     return maxList - minList
 
 print(largest_difference([5,8,9,12,1]))
+
+
+# solution 3
+def largest_difference(list1):
+    for item in list1:
+        if item>-100 and item <100:
+            maxNumber=max(list1)
+            minNumber=min(list1)
+    return maxNumber-minNumber
+    
+print(largest_difference([1, 2, 3]))
