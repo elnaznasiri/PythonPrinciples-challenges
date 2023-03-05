@@ -26,9 +26,9 @@ def palindrome(string):
         j-=1
 
     if flag==True:
-        print("Yes")
+        return("Yes")
     else:
-        print("No")
+        return("No")
 
 string = input("Enter string: ")
-palindrome(string)
+print(palindrome(string))
